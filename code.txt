@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammar Idris Osman - Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #E8491D 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #E8491D;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #cccccc;
+            font-weight: bold;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('medical_background.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            padding-bottom: 10px;
+            border-bottom: #E8491D 3px solid;
+        }
+        .footer {
+            background: #50b3a2;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Ammar Idris Osman</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#about">???? ?????</a></li>
+                    <li><a href="#education">???????</a></li>
+                    <li><a href="#skills">????????</a></li>
+                    <li><a href="#interests">????????</a></li>
+                    <li><a href="#contact">????? ???????</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>????? ??? ?? ????? ???????</h1>
+            <p>??????? ??? ??? ?????? ????????.</p>
+        </div>
+    </section>
+
+    <div class="content container">
+        <section id="about">
+            <h2>???? ?????</h2>
+            <p>Ammar Idris Osman, a highly professional Sonographer Specialist with extensive experience in vascular, pediatric, general ultrasound, MSK, and advanced ultrasound procedures. Using clinical knowledge to determine diagnostic protocols. Highly qualified, holding a Master degree in Ultrasound from Ribat National University. Have contributed judgment, great problem-solving skills, and the ability to provide high service for patients independently while managing tasks to advance the organization's objectives and developing opportunities that further establish organizational goals.</p>
+        </section>
+
+        <section id="education">
+            <h2>???????</h2>
+            <ul>
+                <li>Master degree in Diagnostic Ultrasound, Ribat National University, Sudan, 2016.</li>
+                <li>Bachelor (honor) in Diagnostic Radiology, University of Al-Zaim Al-Azhari (AAU), Sudan, 2011.</li>
+                <li>Diploma Certificate in Ultrasound, (01/Aug/2011 to 01/Oct/2011).</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>????????</h2>
+            <p>????? ?? ??????? ?? ???? ????? ?? ??????? ???????? ???????? ?????? ??????? ?????? ??????? ????????? ?????????? ???????? ?? ???????.</p>
+        </section>
+
+        <section id="interests">
+            <h2>???????? ???????????</h2>
+            <p>????? ????? ????? ??????? ????? ??????? ??????? ???????? ?? ???? ???????.</p>
+        </section>
+
+        <section id="contact">
+            <h2>????? ???????</h2>
+            <p>?????? ??????????: <a href="mailto:Sonogrpher@gmail.com">Sonogrpher@gmail.com</a></p>
+            <p>??? ??????: 00966-577591061</p>
+            <p>??????: ?????? ??????? ??????? ????????</p>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>Ammar Idris Osman &copy; 2024</p>
+    </footer>
+</body>
+</html>
